@@ -1,0 +1,32 @@
+tps 1
+Spencer Stafford
+Amrita
+Martin
+
+Activity 1
+1. You can open a linux terminal by opening either the normal, built  in command prompt
+temrinal or you can use a program like VSCode
+2. pwd print working directory
+3. You can use cd desktop
+4. mkdir cse31
+
+
+
+Activity 2: 
+1. I can go to the terminal ssection in VSCode to open a terminal, or download a compataible linux terminal for windows. 
+1a. and 1b. You can have more than one terminal open at once. Maybe so that you can run multiple things at once. 
+2. ls lists the contents of a directiory. 
+3. cd .. takes you back to previous directories. You can do that until you reach desktop, I guess. 
+4. mkdir makes new directories. 
+
+
+Activity 3:
+1. gcc
+2. if it compiles and runs without error
+3. -c links the input to a linker
+4. -g is to make it work with the debugger
+5. mv is used to change names
+6. it compiles it without an executable? 
+7. ./[filename]. 
+
+

@@ -1,0 +1,33 @@
+int userNum;
+int evennumbers;
+intoddnumbers;
+int coutn;
+char end
+
+
+userNum = input("enter the", end, "number!");
+count++;
+
+
+
+if (count == ends in 1){
+    end = "st";
+}
+else if (count == ends in 2){
+    end = "nd";
+}
+else if (count == ends in 3){
+    end == "rd
+}
+else{
+    end == "th"
+}
+
+userNum = addnum;
+
+find remainder using modulo
+find the rest using regular division (no remainder)
+
+avg = take the averages
+
+print (corresponding statement);

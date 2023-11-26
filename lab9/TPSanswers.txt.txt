@@ -1,0 +1,36 @@
+Spencer Stafford
+
+TPS Answers 
+
+Activity 1:
+	
+	4. Machine insturctions are 32-bit instructions.
+
+	5. Machine instructions can be put into 3 categories: I-format, J-format, or R-format. 
+	I-format: addi, subi
+	J-format: j, jal
+	R-format: add, sub
+
+	6. Line 7 has he addi operator, which should be an I-format instruction. I-format instructions have 3 different sub categories:
+	This format has 4 fields: immediate register, source register, destination register, and opcode. 
+	b) the opcode for addi is 8, in this case Rs is $s0, Rt is $zero, and the Immediate is 25. The value of $s0 in true assembly is 16, $zero is 0, and 25 is 0x00000019 or 19.
+	c) 001000 00000 10000 0000000000011001, 0x20100019 (after stepping through line 7)
+	
+	7. The code at line 14 in hex is 0x0230402a, in binary: 000000 10001 10000 01000 00000 101010
+	b) This instruction is R-format because the leftmost 6 numbers are 0s. R-format has 6 fields, opcode, source register, target register, destination register, shamt, and funct
+	c)The opcode = 0, therefore Rs = 11, Rt = 10, Rd = 8, Shamt = 0, and Funct = 2a. 
+	d) The operation is slt and we are using $s0, $s1, and $t0
+	e) The final operation is slt $t0, $s1, $s0
+	
+	8. bne is an I-Format instruction.
+        b) opcode is 5, rs is 8, rt is 0
+        c) Name of target label is LESS, address of this label is 0x0040001c in hex.
+        d) No, because we can't fit a 32 bit address into a 16 bit location.
+        e) find the relative address by counting the number of lines between the call instruction until we reach the branch location, in this case, 1. It is 0000000000000001 in binary and 1 in hex.
+        f) Machine code binary = 000101 01000 000000000000000000001, machine code hex = 0x15000001
+
+	9.This instruction is in J-format. there are only 2 fields for this type of instruction
+        b) opcode in hex = 2
+        c) this instruction jumps to label GREQ at address 0x00400030
+        d) you are able to use 26 bits for the address label. Value in binary = 00000100000000000000001100
+        e) machine code in binary = 000010 00000100000000000000001100, in hex = 0x0810000c.

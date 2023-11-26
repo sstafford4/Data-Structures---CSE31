@@ -1,0 +1,14 @@
+TPS Answers
+
+Spencer Stafford
+
+Activity 1:
+
+	5. Because we are no longer using the value of n, we dont need to declare it, nor do we have to load its address or word. 
+
+Activity 2: 
+	1. The program is going to return 29 because that is the amount of times the return statement or something
+	5. We can place the value in a0 before trying to call the syscall.
+	7. The user input is stored first
+	10. The value of $a0 is being changed. 
+	12. We'll get an error. 

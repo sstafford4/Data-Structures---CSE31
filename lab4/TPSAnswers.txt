@@ -1,0 +1,20 @@
+Spencer Stafford
+
+Activity 1:
+    1. I expect to see the hexidecimal values stored in the array at the given index printed.
+    2. I expect that it would print the exact same thing as the previous statement if I added another printf statement at the very end. 
+    4. printing four_ints[1] after the four_ints[0] at the end of the program returns the original value of four_ints[0], which is 2 in this case.
+    I am kind of surprised by the results. 
+    5. 
+        a. Only one array was declared throughout the entire program, four_ints[]. four_c is a pointer thta points to the array. 
+        b. four_c is pointing to four_ints[], so I assume that they are pointing to the same location. 
+         - So they actually ARENT pointing to the same location. 
+        c. four_c prints out something completely different from four_ints[], meaning that they arent pointing to the same thing. 
+
+    6. The difference in he addresses between four_ints[] is that each one is 4 bits larger than the last. 70 -> 74 -> 78 -> 7c.
+    This means that the memory is not contiguous. 
+    8. The addresses for four_c are all contiguous, going from 70 to 73. I believe that four_ints[] is being externally fragmented. 
+    10. ((come back to this question))
+
+Activity 2:
+    1. 

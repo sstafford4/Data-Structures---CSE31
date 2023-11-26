@@ -1,0 +1,19 @@
+Spencer Stafford
+
+TPS Activity 1:
+	1. Functions have a return value for whatever code called it. Procedures are very similar to functions, but they do not
+	return anything. Functions determine HOW something is done, while procedures determine WHEN something is done. Methods are 
+	all of the functions or procedures that are created or called within a class. Methods are only seen in object-oriented programming. 
+	2. The SUM label is on line 20. It adds that values of n and m, then jumps registers to the contents of $ra. 
+	3. I dont think that j can be used in place of jr in this context. If we jumped back to the base code, it would just loop instead of starting off
+	where it left off. 
+	4. The return address is saved on line 11, right before the program jumps to SUM. The return address is set to 0 by this line. 
+	5. The address that the program should return to from SUM is 0x00400020, which is the address of addi $a0, $v0, 0. This sets m to equal the value of $v0 i think.
+	6. 
+
+Activity 2:
+	1. I think that proc2 is going to return 38. This answer has been  verified. 
+	2. SUM knows where to return because of the jal instruction instead of j. After SUM jumps to SUB, the return address is linked to that of SUB? 
+	You might want to change that for jal to j just so that the $ra registr isnt linked to SUB. 
+	3.The values are actually overwritten, which i think could be fixed by storing the values on the stack. 
+`	4. The value on line 25 is overwritten.   

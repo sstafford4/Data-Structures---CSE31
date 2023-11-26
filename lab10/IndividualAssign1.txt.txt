@@ -1,0 +1,13 @@
+Individual Assignment
+
+Spencer Stafford
+
+1. My CPU has 3 levels, and the first level, L1 is seperated into Data and Instructions. 
+
+2. The 2 L1 caches are both 8x32 Kbytes, L2 is 8x512 Kbytes, and l3 is 16Mbytes.
+
+3. 64B for all 4
+
+4. L1 (Data): 8 associative, L1(Instruction): 8 associative, L2: 4 associative, L3: 14 associative
+
+5. Tag == 20B, Index == 6B, Offset == 6B

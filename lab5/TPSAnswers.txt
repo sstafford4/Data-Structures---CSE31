@@ -1,0 +1,22 @@
+Spencer Stafford
+
+03/02/2023
+
+Activity 1:
+	1. MARS stands for MIPS Assembler and Runtime Simulator. 
+ 
+	5a. I loaded the assembly file by clicking on the little folder icon and choosing the desired file
+	5b. In the top corner, under the Run section, there is an option to assemble the code. Then, if you go back to the same section
+	, you can run the assembled code. 
+	5d. You cannot run the code before assembling it. 
+	5e. You can select the step option to run the code line by line.
+	5f.You can reassemble the program or click reset. 
+
+Activity 2:
+	1. .data and .text are used to seperate variable declarations and assembly instructions, while .word allocates and initializes space for the variables. 
+	2. Line 10 establishes a branch on equal to the finish branch if $t3 and $t0 are equal. 
+	3. Line 15 jumps back to the top of the fib branch. 
+	4. To set a breakpoint in MARS, assemble the code, go to the execute tab, and click the BKPT box at the desired line. 
+	5. You can just keep clicking the step option from the Run section. 
+	6. On the right side of the screen, there is a box to view all of the registers. You can manually change the values of each register from there. 
+	7. Syscall causes a system exception that transfers control from the user space to the kernel space.    

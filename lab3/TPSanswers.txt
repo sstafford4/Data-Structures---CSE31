@@ -1,0 +1,26 @@
+Spencer Stafford
+
+Activity 1:
+    1. The 3 pools of memory are the Static memory, the Stack, and the Heap.
+        - Static holds all initialized and unititialized variables that are declared
+        with the static keyword. 
+        - The stack is for all local variables.
+        - The Heap holds all of the space requested by the use of malloc().
+
+    2. a) There are 3 variables declared; two integerpointers and one integer.
+       b) ptr points to an integer, while handle points to another pointer.
+       c) I believe that these would be stored in the stack, as all 3 of them are local variables and are declared without
+       the static keyword.
+       d) After line 12, I believe that ptr would still be pointing to the stack. Even though the previous line has ptr allocating new space,
+       which would make it memory on the Heap, I think assigning ptr to num would make that cancel out. 
+    
+    3. (This activity is a drawing.)
+
+
+Activity 2: 
+    1. NodeStruct.c has a struct called Node in it. Node contains 3 variables. The program creates a pointer of type Node* and allocates space for it using malloc.
+    Afterwards, the program assigns 2 of the variables inside of the struct values.
+
+    3. Based on the addresses, I think that the Node structure is on the Stack. The head pointer starts in the heap, but ends in the Stack as it is pointing 
+    to Stack values. 
+    

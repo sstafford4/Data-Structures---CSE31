@@ -1,0 +1,23 @@
+Spencer Stafford
+
+Activity 2:
+
+    1) You would use the -g flag; gcc -g punishment.c -o punish
+    2) You would use: gdb punish. This would load the program into the debugger.
+    3) Once you have the program loaded into the debugger, you can run it by entering "r" into the console. 
+    4) A breakpoint is the point where the code will stop executing. To set a breakpoint, while inside the debugger,
+        write "break [linenumber]". This will set a break point at the desired line. You dont need the brackets. 
+    5)To make the debugger execute the code line by line, you can type "s" into the debugger or "n"
+    6) To print the value of a variable, you can use print [variablename] in the debugger. 
+    7) To make the program finish its run, you can type "c" into the debugger
+    8) You can exit gdb by typing quit into the debugger. 
+
+Activity 3: 
+    1) A total of 5 variables were declared. 2 were integers, 2 were pointers, and 1 was an array (which is diff from a pointer
+        despite being similiar). x, y integers, px, py pointers, arr[10] array. 
+    2)  The values printed when trying to print x, y, and arr[0] are seemingly random, as I believe the values being returned
+        are relative to their memory spaces due to them not being assigned a value.
+    3) You can assign them values to avoid the unexpected return. 
+    8) Yea, I guess the result makes sense. I have no reason to believe otherwise. 
+
+

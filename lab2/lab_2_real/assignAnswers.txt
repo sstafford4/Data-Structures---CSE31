@@ -1,0 +1,18 @@
+Individual Assignment 1;
+    1) The error is at line 22. 
+    2) You make sure that every instance of scanf is using &input instead of just input. 
+
+    3) The code isnt working because sum is set to equal 0 in the main() function. 
+    4) You can probably fix it by getting rid of the double sum parameter in the read_values function and
+        doing all of the calculations and variable inputs in there. 
+
+Individual Assignment 2:
+    1) The result is HELLOhellohello, it prints the second string twice. This is not the expected output.
+        It also doesnt stop running. 
+    2) When inputting HI and hi, it is all sorts of messed up. it prints HIhiOhellohi. 
+    3) It looks the strings were stuck together wrong. They clip through eachother. It probably happens because the function
+        tells it to place the strings in between eachother in a weird way.
+
+Individual Assignment 3:
+    1) 
+

@@ -1,0 +1,76 @@
+Spencer Stafford
+
+Test 1:
+	
+Enter the number of assignments (between 1 and 25): 5
+Enter score: 1
+Enter score: 2
+Enter score: 3
+Enter score: 4
+Enter score: 5
+Original scores: 1 2 3 4 5 
+Sorted scores (in descending order): 5 4 3 2 1 
+Enter the number of (lowest) scores to drop: 2
+Average (rounded up) with dropped scores removed: 4
+-- program is finished running --
+
+Test 2:
+
+Enter the number of assignments (between 1 and 25): 5
+Enter score: 100
+Enter score: 500
+Enter score: -400
+Enter score: 30
+Enter score: 10
+Original scores: 100 500 -400 30 10 
+Sorted scores (in descending order): 500 100 30 10 -400 
+Enter the number of (lowest) scores to drop: 3
+Average (rounded up) with dropped scores removed: 300
+-- program is finished running --
+
+Test 3:
+
+Enter the number of assignments (between 1 and 25): 10
+Enter score: -1
+Enter score: -2
+Enter score: -3
+Enter score: -5
+Enter score: 10
+Enter score: 14
+Enter score: 13
+Enter score: 100
+Enter score: 0
+Enter score: -8
+Original scores: -1 -2 -3 -5 10 14 13 100 0 -8 
+Sorted scores (in descending order): 100 14 13 10 0 -1 -2 -3 -5 -8 
+Enter the number of (lowest) scores to drop: 6
+Average (rounded up) with dropped scores removed: 34
+-- program is finished running --
+
+Test 4: 
+
+Enter the number of assignments (between 1 and 25): 4
+Enter score: 0
+Enter score: 0
+Enter score: 0
+Enter score: 0
+Original scores: 0 0 0 0 
+Sorted scores (in descending order): 0 0 0 0 
+Enter the number of (lowest) scores to drop: 0
+Average (rounded up) with dropped scores removed: 0
+-- program is finished running --
+
+Test 5:
+
+Enter the number of assignments (between 1 and 25): 6
+Enter score: 10
+Enter score: 20
+Enter score: 30
+Enter score: 40
+Enter score: 50
+Enter score: 60
+Original scores: 10 20 30 40 50 60 
+Sorted scores (in descending order): 60 50 40 30 20 10 
+Enter the number of (lowest) scores to drop: 5
+Average (rounded up) with dropped scores removed: 60
+-- program is finished running --

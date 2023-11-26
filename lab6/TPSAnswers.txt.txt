@@ -1,0 +1,20 @@
+Spencer Stafford
+
+TPS Activites
+
+Activity 1:
+	1. The starting address for the text segment is 0x00400000 and the starting address for the data segment is 0x10010000
+	2. The difference between the True Assembly code (basic area) and the MIPS assembly code (Source area) seems to be that the Basic area is more the way 
+the machine reads it, showing addi as addiu (addi unsigned), the registers as numbers instead of $t_, and showing certain addresses. I think the source area is the code
+but more readable/understandable for humans. 
+	3. In the data segment, there is a 32 bit difference between data addresses. 
+	4. For each address, there are 8 columns. 
+	5. I dont really know what the relationship is between the 8 columns for each data address. 
+	6. In the .text section, set the variable like variable:, then allocate space for it using .word [value]. 
+	7. It looks like the variable m is saved to the second column of the first address of the Data segment, which is 0x10010000. 
+	9. str1 is stored in 3 addresses in the first address of the Data segment. It uses the Value(+8), Value(+c), and Value(+10) columns of the 0x10010000 address. 
+	10. Upon clicking the ASCII box, I honestly do not understand how to interpret this. I think it lines up with what was discussed in Lab4. 
+	12. la $t3, n loads the address of the label or variable into the desired register. 
+
+Activity 2: 
+	1. 
